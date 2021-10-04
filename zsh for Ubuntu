@@ -20,6 +20,8 @@ alias ..='cd ..'
 alias l='lsd'
 alias ll='lsd -l'
 alias src='source ~/.zshrc' source
+alias stop-mysql='sudo service mysql stop'
+alias start-mysql='sudo service mysql start'
 
 # Used for Laravel
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
